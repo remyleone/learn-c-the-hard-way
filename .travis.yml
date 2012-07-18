@@ -1,0 +1,5 @@
+before:
+  - sudo apt-get install build-essential clang valgrind
+
+script:
+  - source ./test.sh
