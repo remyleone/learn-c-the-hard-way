@@ -3,3 +3,6 @@ before:
 
 script:
   - source ./test.sh
+
+notifications:
+  -email: false
